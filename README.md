@@ -1,0 +1,1 @@
+# AnalistaDadosBigData2026.2
