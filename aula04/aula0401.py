@@ -91,5 +91,40 @@ print(f"A quantidade de lâmpadas necessárias para esté comodo é {lampadas}."
 
 
 
+#ATIVIDADE 04
+
+codigo = int(input("Informe o código do produto:"))
+
+codigo = int(input("Informe o número do produto:"))
+
+match codigo:
+
+    case 1:
+        codigo= "Sul"
+    case 2:
+        codigo= "Norte"
+    case 3:
+        codigo= "Leste"
+    case 4:
+        codigo= "Oeste"
+    case 5:
+        codigo= "Nordeste"
+    case 6:
+        codigo= "Nordeste"
+    case 7:
+        codigo= "Sudeste"
+    case 8:
+        codigo= "Sudeste"
+    case 9:
+        codigo= "Sudeste"
+    case 10:
+        codigo= "Centro-Oeste"
+    case 11:
+        codigo= "Noroeste"
+    case _:
+        codigo="Produto Importado"
+
+print(f"{região}.")
+
 
 
