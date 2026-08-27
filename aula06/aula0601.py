@@ -107,3 +107,7 @@ achadinhos = {}
 print(type(achadinhos))
 achadinhos["capinha celular"]=12.99
 print(achadinhos)
+
+
+#Desafios
+
