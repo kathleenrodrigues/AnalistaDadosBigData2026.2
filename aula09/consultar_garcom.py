@@ -1,18 +1,18 @@
 lista_garcons = [
     {
-        "matricula": "1001",
+        "matricula": "11",
         "nome": "João da Silva",
         "situacao": "disponivel",
         "mesas_atribuidas": [1, 2, 3]
     },
     {
-        "matricula": "1002",
+        "matricula": "12",
         "nome": "Maria Oliveira",
         "situacao": "disponivel",
         "mesas_atribuidas": [4, 5]
     },
     {
-        "matricula": "1003",
+        "matricula": "13",
         "nome": "Carlos Santos",
         "situacao": "indisponivel",
         "mesas_atribuidas": []
@@ -20,12 +20,12 @@ lista_garcons = [
 ]
 
 
-def consultar_garcom(lista_garcons):
+def consultar_garcom(listar_garcons):
     print("\n" + "=" * 40)
     print("CONSULTA DE GARÇOM - TANOSHIMI")
     print("=" * 40)
 
-    if not lista_garcons:
+    if not listar_garcons:
         print("Nenhum garçom cadastrado no sistema até o momento.")
         return
 
@@ -37,7 +37,7 @@ def consultar_garcom(lista_garcons):
 
     garcom_encontrado = None
 
-    for garcom in lista_garcons:
+    for garcom in listar_garcons:
         if str(garcom.get("matricula")) == matricula_busca:
             garcom_encontrado = garcom
             break
